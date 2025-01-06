@@ -94,7 +94,8 @@ class ProductsTableSeeder extends Seeder
                     'stocks' => 6,
                     'criticalLevel' => 2,
                     // 'serialno' => 654321001,
-                    'sold' => 0
+                    'sold' => 0,
+                    'supplier_id' => 1
                 ],
                 [
                     // 'sku' => '0000002',
@@ -108,6 +109,8 @@ class ProductsTableSeeder extends Seeder
                     'criticalLevel' => 2,
                     // 'serialno' => 654321002,
                     'sold' => 0
+                    ,
+                    'supplier_id' => 1
                 ],
                 [
                     // 'sku' => '0000003',
@@ -121,6 +124,8 @@ class ProductsTableSeeder extends Seeder
                     'criticalLevel' => 2,
                     // 'serialno' => 654321003,
                     'sold' => 0
+                    ,
+                    'supplier_id' => 1
                 ],
                 [
                     // 'sku' => '0000004',
@@ -134,6 +139,8 @@ class ProductsTableSeeder extends Seeder
                     'criticalLevel' => 2,
                     // 'serialno' => 654321004,
                     'sold' => 0
+                    ,
+                    'supplier_id' => 1
                 ],
                 [
                     // 'sku' => '0000005',
@@ -147,6 +154,8 @@ class ProductsTableSeeder extends Seeder
                     'criticalLevel' => 2,
                     // 'serialno' => 654321005,
                     'sold' => 0
+                    ,
+                    'supplier_id' => 1
                 ],
                 [
                     // 'sku' => '0000006',
@@ -160,6 +169,8 @@ class ProductsTableSeeder extends Seeder
                     'criticalLevel' => 2,
                     // 'serialno' => 654321006,
                     'sold' => 0
+                    ,
+                    'supplier_id' => 1
                 ],
                 [
                     // 'sku' => '0000007',
@@ -173,6 +184,8 @@ class ProductsTableSeeder extends Seeder
                     'criticalLevel' => 2,
                     // 'serialno' => 654321007,
                     'sold' => 0
+                    ,
+                    'supplier_id' => 1
                 ],
                 [
                     // 'sku' => '0000008',
@@ -186,6 +199,8 @@ class ProductsTableSeeder extends Seeder
                     'criticalLevel' => 2,
                     // 'serialno' => 654321008,
                     'sold' => 0
+                    ,
+                    'supplier_id' => 1
                 ],
                 [
                     // 'sku' => '0000009',
@@ -199,6 +214,8 @@ class ProductsTableSeeder extends Seeder
                     'criticalLevel' => 2,
                     // 'serialno' => 654321009,
                     'sold' => 0
+                    ,
+                    'supplier_id' => 1
                 ],
                 [
                     // 'sku' => '0000010',
@@ -212,6 +229,8 @@ class ProductsTableSeeder extends Seeder
                     'criticalLevel' => 2,
                     // 'serialno' => 654321010,
                     'sold' => 0
+                    ,
+                    'supplier_id' => 1
                 ],
                 [
                     // 'sku' => '0000011',
@@ -225,6 +244,8 @@ class ProductsTableSeeder extends Seeder
                     'criticalLevel' => 2,
                     // 'serialno' => 654321011,
                     'sold' => 0
+                    ,
+                    'supplier_id' => 1
                 ],
                 [
                     // 'sku' => '0000012',
@@ -238,6 +259,8 @@ class ProductsTableSeeder extends Seeder
                     'criticalLevel' => 2,
                     // 'serialno' => 654321012,
                     'sold' => 0
+                    ,
+                    'supplier_id' => 1
                 ],
                 [
                     // 'sku' => '0000013',
@@ -251,6 +274,8 @@ class ProductsTableSeeder extends Seeder
                     'criticalLevel' => 2,
                     // 'serialno' => 654321013,
                     'sold' => 0
+                    ,
+                    'supplier_id' => 1
                 ],
             ]
         );

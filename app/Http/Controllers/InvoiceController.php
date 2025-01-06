@@ -148,10 +148,10 @@ class InvoiceController extends Controller
     public function getPurchaseDetails(Request $request){
         $search=DB::table('purchase_details')
         // ->join('purchases', 'purchases.ID', '=', 'purchase_details.order_id')
-        // ->join('customers', 'customers.id', '=', 'purchases.customer_ID')
+       //  ->join('customers', 'customers.id', '=', 'purchases.customer_ID')
         // ->join('purchase_details', 'purchase_details.order_id', '=', 'purchases.ID')
-        ->join('products', 'products.id', '=', 'purchase_details.product_ID')
-        // ->where('purchases.ID', $request['ID'])
+       // ->join('products', 'products.id', '=', 'purchase_details.product_ID')
+       //  ->where('purchases.ID', $request['ID'])
         ->get();
         return $search;
     }

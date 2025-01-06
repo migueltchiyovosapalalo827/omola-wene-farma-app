@@ -118,9 +118,9 @@ class SerialController extends Controller
 
     public function productsWithSerialNo(){
         $product = DB::table('serials')
-        ->join('customers', 'customers.id', '=', 'purchases.customer_ID')
+       // ->join('customers', 'customers.id', '=', 'purchases.customer_ID')
         ->join('products', 'products.id', '=', 'serials.ssku')
-   
+
         // ->where('purchases.ID', $request['ID'])
         ->get();
         return $product;

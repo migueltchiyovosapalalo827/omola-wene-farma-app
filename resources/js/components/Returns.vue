@@ -155,10 +155,10 @@ export default {
       remarkText: "",
       // selected: 'Pending',
         options: [
-          { value: 'Pending', text: 'Pending' },
-          { value: 'Repair', text: 'Repair' },
-          { value: 'Fixed', text: 'Fixed' },
-          { value: 'Release', text: 'Release' }
+          { value: 'Pending', text: 'Pendente' },
+          { value: 'Repair', text: 'Reparar' },
+          { value: 'Fixed', text: 'Consertado' },
+          { value: 'Release', text: 'Devolvido' }
         ],
         // returnStatus:'' ,
         // SelectedStatus:'',

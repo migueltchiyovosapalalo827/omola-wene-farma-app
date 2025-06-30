@@ -545,18 +545,9 @@ export default {
           Toast.fire({
             icon: "error",
             title: "Oops!",
-            text: "wala",
+            text: " Número de série desconhecido",
           });
-        } else if (this.returnvalue.orderno != null) {
-          Toast.fire({
-            icon: "error",
-            title: "Oops!",
-            text:
-              "O producto com número de série " +
-              this.serial +
-              " já se encontra na lista de compras",
-          });
-        } else if (c.includes(this.returnvalue.serialnumber)) {
+        }  else if (c.includes(this.returnvalue.serialnumber)) {
           Toast.fire({
             icon: "error",
             title: "Oops!",
@@ -832,11 +823,7 @@ export default {
     },
 
     vars(value) {
-      if (value == null) {
-        return "info";
-      } else {
-        return "danger";
-      }
+      return "info";
     },
   },
 
@@ -862,7 +849,7 @@ export default {
     currency: function (value) {
       var formatter = new Intl.NumberFormat("en-US", {
         style: "currency",
-        currency: "OAO",
+        currency: "AKZ",
         minimumFractionDigits: 0,
       });
       return formatter.format(value);
